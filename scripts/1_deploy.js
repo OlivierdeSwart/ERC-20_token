@@ -1,6 +1,6 @@
 async function main() {
   // Fetch contract to deploy
-  const token = await ethers.getContractFactory("Token")
+  const Token = await ethers.getContractFactory("Token")
 
   // Deploy contract
   const token = await Token.deploy()

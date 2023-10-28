@@ -3,7 +3,7 @@ async function main() {
   const token = await ethers.getContractFactory("Token")
 
   // Deploy contract
-  Token.deploy()
+  token.deploy()
 }
 
 // We recommend this pattern to be able to use async/await everywhere
